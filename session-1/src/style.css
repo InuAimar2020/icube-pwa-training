@@ -1,0 +1,194 @@
+
+.header-link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.logo-wrap img {
+    float: left;
+    height: 30px;
+    margin: 14px 10px 0;
+}
+
+.home-link {
+    float: left;
+}
+
+.cart-link {
+    float: right
+}
+
+.home-link a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cart-link a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* banner */
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+
+/* product list */
+
+.product-list{
+    width: 30%;
+    font-size: 0px;
+    display: inline-block;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.product-list .product-img img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.product-name {
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+}
+
+.product-info .price {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-info .view {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-info .view a {
+    color: #000000;
+}
+
+.view-more {
+    text-align: center;
+    display: block;
+}
+
+.view-more a {
+    color: #000;
+}
+
+/* category product */
+.category-product h1 {
+    text-align: center;
+    border-top: 1px solid #dfe6e9;
+    padding-top: 20px;
+}
+
+/* category page */
+.category-page h1 {
+    text-align: center;
+}
+
+
+/* product page */
+
+.product-page {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+}
+
+.product-image {
+    padding: 10px;
+    flex: 50%;
+}
+
+.product-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.product-info {
+    padding: 10px;
+    flex: 50%;
+}
+.product-page .name{
+    font-size: 18px;
+    text-align: left;
+    font-style: italic;
+}
+
+.product-page .sku {
+    font-size: 12px;
+    text-align: left;
+}
+
+.product-page .price {
+    text-align: left;
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.action-secondary {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.plus-button {
+    cursor: pointer;
+}
+
+.minus-button{
+    cursor: pointer;
+}
+
+.action-secondary span {
+    padding: 0 10px;
+}
+
+.action-primary {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.action-primary a {
+    color: #000000;
+    font-size: 20px;
+}
+
+.description {
+    margin-top: 60px;
+}
+
+.description .title {
+    font-style: italic;
+}
