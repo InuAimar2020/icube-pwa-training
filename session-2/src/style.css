@@ -142,7 +142,7 @@
     width: 80%;
 }
 
-.product-info {
+.product-information {
     padding: 10px;
     flex: 50%;
 }
@@ -209,4 +209,43 @@
     text-align: center;
     box-shadow: 0 0 3px 3px #ddd;
     border-radius: 8px;
+}
+
+/* login page */
+
+.acount-container {
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 3px 3px #ddd;
+    border-radius: 8px;
+}
+
+.acount-container input {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.acount-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+    opacity: 0.9;
+}
+
+a.register-link {
+    margin-left: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
 }

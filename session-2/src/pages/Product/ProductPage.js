@@ -39,7 +39,7 @@ export default function ProductPage() {
             <div className="product-image">
                 <img src={query.get("productImg")} alt={query.get("productName")} />
             </div>
-            <div className="product-info">
+            <div className="product-information">
                 <div className="name">{query.get("productName")}</div>
                 <div className="sku">sku: #{query.get("productNo")}</div>
                 <div className="price"><NumberFormat value={query.get("productPrice")} displayType={'text'} thousandSeparator={true} prefix={'Rp. '} /></div>
